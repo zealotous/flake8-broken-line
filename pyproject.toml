@@ -37,7 +37,7 @@ classifiers = [
 N4 = "flake8_broken_line:check_line_breaks"
 
 [tool.poetry.dependencies]
-python = "^3.6 || ^3.7"
+python = "^3.5 || ^3.6 || ^3.7"
 flake8 = "^3.5"
 
 [tool.poetry.dev-dependencies]

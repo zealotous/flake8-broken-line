@@ -8,7 +8,7 @@ import pkg_resources
 pkg_name = 'flake8-broken-line'
 
 #: We store the version number inside the `pyproject.toml`:
-pkg_version: str = pkg_resources.get_distribution(pkg_name).version
+pkg_version = pkg_resources.get_distribution(pkg_name).version
 
 INVALID_LINE_BREAK = re.compile(r'(?<!\\)\\$', re.M)
 
