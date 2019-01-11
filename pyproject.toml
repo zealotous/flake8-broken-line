@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "flake8-broken-line"
-version = "0.1.0"
+version = "0.1.1"
 description = "Flake8 plugin to forbid backslashes for line breaks"
 
 license = "MIT"
@@ -60,3 +60,4 @@ flake8-pep3101 = "^1.2"
 flake8-debugger = "^3.1"
 pep8-naming = "^0.7"
 mypy = "^0.650"
+poetry-setup = "^0.3"
